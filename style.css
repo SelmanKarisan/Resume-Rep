@@ -232,6 +232,28 @@ hr {
 	border: none;
 	border-top: 2px solid rgba(128, 128, 128, 0.229);
 }
+.counter-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.counter-container h1 {
+    font-size: 24px;
+}
+
+.counter-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#counter {
+    font-size: 36px;
+}
 @media only screen and (max-width: 768px) {
 	hr {
 		margin: 0 auto;
